@@ -57,8 +57,8 @@ func main() {
 	n.UseHandler(r)
 
 	// Start http server
-	log.Println("Listening on :" + env.Getenv("PORT", "3000"))
-	http.ListenAndServe(":"+env.Getenv("PORT", "3000"), n)
+	log.Println("Listening on :" + env.Getenv("PORT", "4445"))
+	http.ListenAndServe(":"+env.Getenv("PORT", "4445"), n)
 }
 
 // handles request at /home - a small page that let's you know what you can do in this app. Usually the first.

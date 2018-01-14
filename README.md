@@ -1,6 +1,5 @@
 # hydra-consent-app-go
 
-[![Build Status](https://travis-ci.org/ory/hydra-consent-app-go.svg?branch=master)](https://travis-ci.org/ory/hydra-consent-app-go)
 
 This is a simple consent app for Hydra written in Go. It uses the Hydra SDK.
 To run the example, first install Hydra, [dep](https://github.com/golang/dep)
